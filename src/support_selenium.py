@@ -167,7 +167,7 @@ def obtener_html_de_urls(urls):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
         }
 
-        respuesta = requests.get('https://www.tripadvisor.es', headers=headers)
+        respuesta = requests.get(url, headers=headers)
 
         if respuesta.status_code == 200:
             resultado['urls'].append(url)
