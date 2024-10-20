@@ -123,11 +123,13 @@ def obtener_urls_paginas_principales(ciudades):
 
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable(('css selector', '#lithium-root > span > header > span > div > div > div.uNcsI._T.o > div > div.f.M > button:nth-child(3) > span > a'))).click()
         sup_sel.scroll_random(driver)
-        sup_sel.sleep_random_time()
+        sleep(10) #dejamos tiempo a que cargen las cosas
 
         urls.append(driver.current_url)
+        sleep(5)
         codigos_pagina.append(driver.page_source)
 
+        sleep(1)
         driver.quit()
 
     return pd.DataFrame({'ciudades': ciudades, 'urls': urls, 'codigos_pagina': codigos_pagina})
@@ -174,3 +176,67 @@ def obtener_html_de_urls(urls):
             resultado['html'].append(BeautifulSoup(respuesta.content, 'html.parser'))
 
     return pd.DataFrame(resultado)
+
+
+# SECCION OBTENER INFO
+
+funciones_primera_celda = {
+    'get_subcategoria': lambda item:  item.find('span',{'class': 'biGQs _P fiohW hmDzD'}).getText(),
+    'get_nombre': lambda item:  item.find('h3',{'class': 'biGQs _P fiohW alXOW EEXWj GzNcM BYtua UTQMg alvrA fOtGX'}).getText(),
+    'get_precio': lambda item:  item.find('div',{'class': 'biGQs _P fiohW fOtGX'}).getText().replace('\xa0€',''),
+    'get_puntuacion': lambda item:  item.find('div',{'class': 'jVDab W f u w JqMhy'}).get('aria-label', 'Desconocido').split(' ')[0].replace(',','.'),
+    'get_n_reviews': lambda item:  item.find('div',{'class': 'jVDab W f u w JqMhy'}).get('aria-label', 'Desconocido').split(' ')[-2],
+    'get_url_detalles': lambda item:  item.find('a',{'class': 'BMQDV _F Gv wSSLS SwZTJ FGwzt ukgoS'})['href'],
+}
+
+funciones_celdas = {
+    'get_subcategoria': lambda item:  item.find('div',{'class': 'biGQs _P pZUbB hmDzD'}).getText(),
+    'get_nombre': lambda item:  item.find('div',{'class': 'biGQs _P fiohW alXOW NwcxK GzNcM ytVPx UTQMg RnEEZ ngXxk'}).getText(),
+    'get_precio': lambda item:  item.find('div',{'class': 'biGQs _P fiohW avBIb fOtGX'}).getText().replace('\xa0€',''),
+    'get_puntuacion': lambda item:  item.find('div',{'class': 'jVDab W f u w JqMhy'}).get('aria-label', 'Desconocido').split(' ')[0].replace(',','.'),
+    'get_n_reviews': lambda item:  item.find('div',{'class': 'jVDab W f u w JqMhy'}).get('aria-label', 'Desconocido').split(' ')[-2],
+    'get_url_detalles': lambda item:  item.find('a',{'class': 'BMQDV _F Gv wSSLS SwZTJ hNpWR'})['href'],
+}
+
+
+def obter_info(funcion, item):
+    try:
+        return funcion(item)
+    except:
+        return 'Desconocido'
+
+
+def obtener_actividades(df):
+    categorias = ['INPRESCINDIBLES', 'GASTRONOMIA', 'ARTE Y CULTURA', 'ATRACCIONES PRINCIPALES', 'OTRAS ATRACCIONES PRINCIPALES', 'VISITAS GUIADAS']
+    resultado = {"ciudad": [], "categoria": [], "subcategoria": [], "nombre": [], "precio": [], "puntuacion": [], "n_reviews": [], "url_detalles": []}
+
+    for i, fila in df.iterrows():
+        ciudad = fila['ciudades']
+        html = BeautifulSoup(fila['codigos_pagina'], 'html.parser')
+
+        celdas = html.find_all('div', {'class': 'BYvbL A'})[:6]
+
+        for i, celda in enumerate(celdas):
+            for item in celda.find_all('li')[:4]:
+
+                if i == 0:
+                    resultado['ciudad'].append(ciudad)
+                    resultado['categoria'].append(categorias[i])
+                    resultado['subcategoria'].append(obter_info(funciones_primera_celda['get_subcategoria'], item))
+                    resultado['nombre'].append(obter_info(funciones_primera_celda['get_nombre'], item))
+                    resultado['precio'].append(obter_info(funciones_primera_celda['get_precio'], item))
+                    resultado['puntuacion'].append(obter_info(funciones_primera_celda['get_puntuacion'], item))
+                    resultado['n_reviews'].append(obter_info(funciones_primera_celda['get_n_reviews'], item))
+                    resultado['url_detalles'].append(obter_info(funciones_primera_celda['get_url_detalles'], item))
+                else:
+                    resultado['ciudad'].append(ciudad)
+                    resultado['categoria'].append(categorias[i])
+                    resultado['subcategoria'].append(obter_info(funciones_celdas['get_subcategoria'], item))
+                    resultado['nombre'].append(obter_info(funciones_celdas['get_nombre'], item))
+                    resultado['precio'].append(obter_info(funciones_celdas['get_precio'], item))
+                    resultado['puntuacion'].append(obter_info(funciones_celdas['get_puntuacion'], item))
+                    resultado['n_reviews'].append(obter_info(funciones_celdas['get_n_reviews'], item))
+                    resultado['url_detalles'].append(obter_info(funciones_celdas['get_url_detalles'], item))
+
+    return pd.DataFrame(resultado)                
+        
