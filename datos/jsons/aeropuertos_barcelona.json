@@ -1,0 +1,56 @@
+{
+    "status": true,
+    "timestamp": 1729447128727,
+    "data": [
+        {
+            "skyId": "BCN",
+            "entityId": "95565085",
+            "presentation": {
+                "title": "Barcelona",
+                "suggestionTitle": "Barcelona (BCN)",
+                "subtitle": "España"
+            },
+            "navigation": {
+                "entityId": "95565085",
+                "entityType": "AIRPORT",
+                "localizedName": "Barcelona",
+                "relevantFlightParams": {
+                    "skyId": "BCN",
+                    "entityId": "95565085",
+                    "flightPlaceType": "AIRPORT",
+                    "localizedName": "Barcelona"
+                },
+                "relevantHotelParams": {
+                    "entityId": "27548283",
+                    "entityType": "CITY",
+                    "localizedName": "Barcelona"
+                }
+            }
+        },
+        {
+            "skyId": "BLA",
+            "entityId": "128667316",
+            "presentation": {
+                "title": "Barcelona",
+                "suggestionTitle": "Barcelona (BLA)",
+                "subtitle": "Venezuela"
+            },
+            "navigation": {
+                "entityId": "128667316",
+                "entityType": "AIRPORT",
+                "localizedName": "Barcelona",
+                "relevantFlightParams": {
+                    "skyId": "BLA",
+                    "entityId": "128667316",
+                    "flightPlaceType": "AIRPORT",
+                    "localizedName": "Barcelona"
+                },
+                "relevantHotelParams": {
+                    "entityId": "27539456",
+                    "entityType": "CITY",
+                    "localizedName": "Barcelona"
+                }
+            }
+        }
+    ]
+}

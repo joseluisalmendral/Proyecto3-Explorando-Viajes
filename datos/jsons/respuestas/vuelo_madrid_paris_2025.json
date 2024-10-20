@@ -1,0 +1,2703 @@
+{
+    "status": true,
+    "timestamp": 1729439590052,
+    "sessionId": "18876e7d-97d4-45f8-ba5a-800a9aeed8ac",
+    "data": {
+        "context": {
+            "status": "incomplete",
+            "sessionId": "ClQIARJQCk4KJDE4ODc2ZTdkLTk3ZDQtNDVmOC1iYTVhLTgwMGE5YWVlZDhhYxACGiRhNzM5N2UyZi00OTllLTRjNmUtOWU3OC05OTY3MWVkZWU1YmQSKHVzc182ZDFkYzI2ZC1mNTc3LTRjMjYtYjdhYy01OWI0NGNjNDI3ZDQ=",
+            "totalResults": 10
+        },
+        "itineraries": [
+            {
+                "id": "13870-2502130750--31915-0-10223-2502131000|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 299.94,
+                    "formatted": "300 €",
+                    "pricingOptionId": "Va_bC9Lozjsi"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502130750--31915-0-10223-2502131000",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais",
+                            "displayCode": "BVA",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T07:50:00",
+                        "arrival": "2025-02-13T10:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10223-2502130750-2502131000--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BVA",
+                                    "displayCode": "BVA",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Beauvais",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T07:50:00",
+                                "arrival": "2025-02-13T10:00:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "5508",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_cheapest",
+                    "shortest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.999
+            },
+            {
+                "id": "13870-2502131825--31915-0-10223-2502132035|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 301.5,
+                    "formatted": "302 €",
+                    "pricingOptionId": "C_F8hsJPYWp2"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502131825--31915-0-10223-2502132035",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais",
+                            "displayCode": "BVA",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T18:25:00",
+                        "arrival": "2025-02-13T20:35:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10223-2502131825-2502132035--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BVA",
+                                    "displayCode": "BVA",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Beauvais",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T18:25:00",
+                                "arrival": "2025-02-13T20:35:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "5444",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_shortest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.787692
+            },
+            {
+                "id": "13870-2502132005--32356-0-10413-2502132215|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 315.94,
+                    "formatted": "316 €",
+                    "pricingOptionId": "0swKiqyyRmuI"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502132005--32356-0-10413-2502132215",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle",
+                            "displayCode": "CDG",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T20:05:00",
+                        "arrival": "2025-02-13T22:15:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10413-2502132005-2502132215--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "CDG",
+                                    "displayCode": "CDG",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Charles de Gaulle",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T20:05:00",
+                                "arrival": "2025-02-13T22:15:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "4582",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "third_shortest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.609295
+            },
+            {
+                "id": "13870-2502130930--31685-1-15083-2502131620|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 360.04,
+                    "formatted": "361 €",
+                    "pricingOptionId": "CoWFwfZwmwOo"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502130930--31685-1-15083-2502131620",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 410,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T09:30:00",
+                        "arrival": "2025-02-13T16:20:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-9772-2502130930-2502131045--31685",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-13T09:30:00",
+                                "arrival": "2025-02-13T10:45:00",
+                                "durationInMinutes": 75,
+                                "flightNumber": "1003",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "9772-15083-2502131425-2502131620--31685",
+                                "origin": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T14:25:00",
+                                "arrival": "2025-02-13T16:20:00",
+                                "durationInMinutes": 115,
+                                "flightNumber": "8012",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.464016
+            },
+            {
+                "id": "13870-2502131820--31685-1-15083-2502132235|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 365.48,
+                    "formatted": "366 €",
+                    "pricingOptionId": "k7WlBtZ-kF26"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502131820--31685-1-15083-2502132235",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 255,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T18:20:00",
+                        "arrival": "2025-02-13T22:35:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-9772-2502131820-2502131935--31685",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-13T18:20:00",
+                                "arrival": "2025-02-13T19:35:00",
+                                "durationInMinutes": 75,
+                                "flightNumber": "1007",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "9772-15083-2502132045-2502132235--31685",
+                                "origin": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T20:45:00",
+                                "arrival": "2025-02-13T22:35:00",
+                                "durationInMinutes": 110,
+                                "flightNumber": "8008",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.42878
+            },
+            {
+                "id": "13870-2502132005--32356-0-10413-2502132215|10413-2502160730--32356,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 310.7,
+                    "formatted": "311 €",
+                    "pricingOptionId": "syofZQ4p62uM"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502132005--32356-0-10413-2502132215",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle",
+                            "displayCode": "CDG",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T20:05:00",
+                        "arrival": "2025-02-13T22:15:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10413-2502132005-2502132215--32356",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "CDG",
+                                    "displayCode": "CDG",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Charles de Gaulle",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T20:05:00",
+                                "arrival": "2025-02-13T22:15:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "4582",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10413-2502160730--32356,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle",
+                            "displayCode": "CDG",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 1000,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T07:30:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "10413-13577-2502160730-2502160915--32356",
+                                "origin": {
+                                    "flightPlaceId": "CDG",
+                                    "displayCode": "CDG",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Charles de Gaulle",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T07:30:00",
+                                "arrival": "2025-02-16T09:15:00",
+                                "durationInMinutes": 165,
+                                "flightNumber": "4591",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.417939
+            },
+            {
+                "id": "13870-2502130750--31915-0-10223-2502131000|10413-2502160730--32356,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 294.7,
+                    "formatted": "295 €",
+                    "pricingOptionId": "g1Dg4Irft0fp"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502130750--31915-0-10223-2502131000",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais",
+                            "displayCode": "BVA",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T07:50:00",
+                        "arrival": "2025-02-13T10:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10223-2502130750-2502131000--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BVA",
+                                    "displayCode": "BVA",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Beauvais",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T07:50:00",
+                                "arrival": "2025-02-13T10:00:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "5508",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10413-2502160730--32356,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle",
+                            "displayCode": "CDG",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 1000,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T07:30:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "10413-13577-2502160730-2502160915--32356",
+                                "origin": {
+                                    "flightPlaceId": "CDG",
+                                    "displayCode": "CDG",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Charles de Gaulle",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T07:30:00",
+                                "arrival": "2025-02-16T09:15:00",
+                                "durationInMinutes": 165,
+                                "flightNumber": "4591",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "cheapest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.400894
+            },
+            {
+                "id": "13870-2502132235--31685-1-15083-2502140825|15083-2502161640--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 422.58,
+                    "formatted": "423 €",
+                    "pricingOptionId": "voGGW-j9W8u7"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502132235--31685-1-15083-2502140825",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 590,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T22:35:00",
+                        "arrival": "2025-02-14T08:25:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-9772-2502132235-2502132350--31685",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-13T22:35:00",
+                                "arrival": "2025-02-13T23:50:00",
+                                "durationInMinutes": 75,
+                                "flightNumber": "1009",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "9772-15083-2502140630-2502140825--31685",
+                                "origin": {
+                                    "flightPlaceId": "BCN",
+                                    "displayCode": "BCN",
+                                    "parent": {
+                                        "flightPlaceId": "BARC",
+                                        "displayCode": "BCN",
+                                        "name": "Barcelona",
+                                        "type": "City"
+                                    },
+                                    "name": "Barcelona",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-14T06:30:00",
+                                "arrival": "2025-02-14T08:25:00",
+                                "durationInMinutes": 115,
+                                "flightNumber": "8000",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502161640--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 450,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T16:40:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502161640-2502161815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T16:40:00",
+                                "arrival": "2025-02-16T18:15:00",
+                                "durationInMinutes": 155,
+                                "flightNumber": "1981",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.378835
+            },
+            {
+                "id": "13870-2502130750--31915-0-10223-2502131000|15083-2502160630--31685,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 299.94,
+                    "formatted": "300 €",
+                    "pricingOptionId": "wIre1kL-DrqX"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502130750--31915-0-10223-2502131000",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais",
+                            "displayCode": "BVA",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T07:50:00",
+                        "arrival": "2025-02-13T10:00:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10223-2502130750-2502131000--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BVA",
+                                    "displayCode": "BVA",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Beauvais",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T07:50:00",
+                                "arrival": "2025-02-13T10:00:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "5508",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15083-2502160630--31685,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly",
+                            "displayCode": "ORY",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 1060,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T06:30:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31685,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                                    "name": "Vueling Airlines"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "15083-13577-2502160630-2502160815--31685",
+                                "origin": {
+                                    "flightPlaceId": "ORY",
+                                    "displayCode": "ORY",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Orly",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T06:30:00",
+                                "arrival": "2025-02-16T08:15:00",
+                                "durationInMinutes": 165,
+                                "flightNumber": "1983",
+                                "marketingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31685,
+                                    "name": "Vueling Airlines",
+                                    "alternateId": "07",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.375289
+            },
+            {
+                "id": "13870-2502131825--31915-0-10223-2502132035|10413-2502160730--32356,-31915-1-13870-2502170010",
+                "price": {
+                    "raw": 296.26,
+                    "formatted": "297 €",
+                    "pricingOptionId": "ScoOZkxHpF6r"
+                },
+                "legs": [
+                    {
+                        "id": "13870-2502131825--31915-0-10223-2502132035",
+                        "origin": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "destination": {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais",
+                            "displayCode": "BVA",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "durationInMinutes": 130,
+                        "stopCount": 0,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-13T18:25:00",
+                        "arrival": "2025-02-13T20:35:00",
+                        "timeDeltaInDays": 0,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "13870-10223-2502131825-2502132035--31915",
+                                "origin": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "BVA",
+                                    "displayCode": "BVA",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Beauvais",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "departure": "2025-02-13T18:25:00",
+                                "arrival": "2025-02-13T20:35:00",
+                                "durationInMinutes": 130,
+                                "flightNumber": "5444",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10413-2502160730--32356,-31915-1-13870-2502170010",
+                        "origin": {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle",
+                            "displayCode": "CDG",
+                            "city": "Paris",
+                            "country": "France",
+                            "isHighlighted": true
+                        },
+                        "destination": {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid",
+                            "displayCode": "MAD",
+                            "city": "Madrid",
+                            "country": "Spain",
+                            "isHighlighted": false
+                        },
+                        "durationInMinutes": 1000,
+                        "stopCount": 1,
+                        "isSmallestStops": false,
+                        "departure": "2025-02-16T07:30:00",
+                        "arrival": "2025-02-17T00:10:00",
+                        "timeDeltaInDays": 1,
+                        "carriers": {
+                            "marketing": [
+                                {
+                                    "id": -32356,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                                    "name": "easyJet"
+                                },
+                                {
+                                    "id": -31915,
+                                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                                    "name": "Ryanair"
+                                }
+                            ],
+                            "operationType": "fully_operated"
+                        },
+                        "segments": [
+                            {
+                                "id": "10413-13577-2502160730-2502160915--32356",
+                                "origin": {
+                                    "flightPlaceId": "CDG",
+                                    "displayCode": "CDG",
+                                    "parent": {
+                                        "flightPlaceId": "PARI",
+                                        "displayCode": "PAR",
+                                        "name": "Paris",
+                                        "type": "City"
+                                    },
+                                    "name": "Paris Charles de Gaulle",
+                                    "type": "Airport",
+                                    "country": "France"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "departure": "2025-02-16T07:30:00",
+                                "arrival": "2025-02-16T09:15:00",
+                                "durationInMinutes": 165,
+                                "flightNumber": "4591",
+                                "marketingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -32356,
+                                    "name": "easyJet",
+                                    "alternateId": "EZ",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            },
+                            {
+                                "id": "13577-13870-2502162150-2502170010--31915",
+                                "origin": {
+                                    "flightPlaceId": "LIS",
+                                    "displayCode": "LIS",
+                                    "parent": {
+                                        "flightPlaceId": "LISB",
+                                        "displayCode": "LIS",
+                                        "name": "Lisbon",
+                                        "type": "City"
+                                    },
+                                    "name": "Lisbon",
+                                    "type": "Airport",
+                                    "country": "Portugal"
+                                },
+                                "destination": {
+                                    "flightPlaceId": "MAD",
+                                    "displayCode": "MAD",
+                                    "parent": {
+                                        "flightPlaceId": "MADR",
+                                        "displayCode": "MAD",
+                                        "name": "Madrid",
+                                        "type": "City"
+                                    },
+                                    "name": "Madrid",
+                                    "type": "Airport",
+                                    "country": "Spain"
+                                },
+                                "departure": "2025-02-16T21:50:00",
+                                "arrival": "2025-02-17T00:10:00",
+                                "durationInMinutes": 80,
+                                "flightNumber": "9743",
+                                "marketingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                },
+                                "operatingCarrier": {
+                                    "id": -31915,
+                                    "name": "Ryanair",
+                                    "alternateId": "FR",
+                                    "allianceId": 0,
+                                    "displayCode": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "isSelfTransfer": true,
+                "isProtectedSelfTransfer": false,
+                "farePolicy": {
+                    "isChangeAllowed": false,
+                    "isPartiallyChangeable": false,
+                    "isCancellationAllowed": false,
+                    "isPartiallyRefundable": false
+                },
+                "fareAttributes": {},
+                "tags": [
+                    "second_cheapest"
+                ],
+                "isMashUp": true,
+                "hasFlexibleOptions": false,
+                "score": 0.371266
+            }
+        ],
+        "messages": [],
+        "filterStats": {
+            "duration": {
+                "min": 450,
+                "max": 1060,
+                "multiCityMin": 580,
+                "multiCityMax": 1190
+            },
+            "airports": [
+                {
+                    "city": "Madrid",
+                    "airports": [
+                        {
+                            "id": "MAD",
+                            "entityId": "95565077",
+                            "name": "Madrid"
+                        }
+                    ]
+                },
+                {
+                    "city": "Paris",
+                    "airports": [
+                        {
+                            "id": "BVA",
+                            "entityId": "95566278",
+                            "name": "Paris Beauvais"
+                        },
+                        {
+                            "id": "CDG",
+                            "entityId": "95565041",
+                            "name": "Paris Charles de Gaulle"
+                        },
+                        {
+                            "id": "ORY",
+                            "entityId": "95565040",
+                            "name": "Paris Orly"
+                        }
+                    ]
+                }
+            ],
+            "carriers": [
+                {
+                    "id": -32356,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                    "name": "easyJet"
+                },
+                {
+                    "id": -31915,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                    "name": "Ryanair"
+                },
+                {
+                    "id": -31685,
+                    "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/07.png",
+                    "name": "Vueling Airlines"
+                }
+            ],
+            "stopPrices": {
+                "direct": {
+                    "isPresent": false
+                },
+                "one": {
+                    "isPresent": true,
+                    "formattedPrice": "295 €"
+                },
+                "twoOrMore": {
+                    "isPresent": false
+                }
+            }
+        },
+        "flightsSessionId": "18876e7d-97d4-45f8-ba5a-800a9aeed8ac",
+        "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg"
+    }
+}

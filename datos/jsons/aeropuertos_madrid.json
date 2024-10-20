@@ -1,0 +1,31 @@
+{
+    "status": true,
+    "timestamp": 1729438380234,
+    "data": [
+        {
+            "skyId": "MAD",
+            "entityId": "95565077",
+            "presentation": {
+                "title": "Madrid-Barajas",
+                "suggestionTitle": "Madrid-Barajas (MAD)",
+                "subtitle": "España"
+            },
+            "navigation": {
+                "entityId": "95565077",
+                "entityType": "AIRPORT",
+                "localizedName": "Madrid-Barajas",
+                "relevantFlightParams": {
+                    "skyId": "MAD",
+                    "entityId": "95565077",
+                    "flightPlaceType": "AIRPORT",
+                    "localizedName": "Madrid-Barajas"
+                },
+                "relevantHotelParams": {
+                    "entityId": "27544850",
+                    "entityType": "CITY",
+                    "localizedName": "Madrid"
+                }
+            }
+        }
+    ]
+}
