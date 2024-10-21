@@ -20,7 +20,6 @@ from selenium.common.exceptions import NoSuchElementException # Excepciones comu
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
-from src import support_selenium as sup_sel
 import random
 
 
@@ -190,7 +189,7 @@ funciones_primera_celda = {
 }
 
 funciones_celdas = {
-    'get_subcategoria': lambda item:  item.find('div',{'class': 'biGQs _P pZUbB hmDzD'}).getText(),
+    'get_subcategoria': lambda item:  item.find_all('div',{'class': 'biGQs _P pZUbB hmDzD'})[1].getText(),
     'get_nombre': lambda item:  item.find('div',{'class': 'biGQs _P fiohW alXOW NwcxK GzNcM ytVPx UTQMg RnEEZ ngXxk'}).getText(),
     'get_precio': lambda item:  item.find('div',{'class': 'biGQs _P fiohW avBIb fOtGX'}).getText().replace('\xa0€',''),
     'get_puntuacion': lambda item:  item.find('div',{'class': 'jVDab W f u w JqMhy'}).get('aria-label', 'Desconocido').split(' ')[0].replace(',','.'),
