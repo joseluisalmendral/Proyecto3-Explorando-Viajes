@@ -199,6 +199,18 @@ funciones_celdas = {
 
 
 def obter_info(funcion, item):
+    """
+    Obtiene información de un elemento aplicando una función proporcionada. Si ocurre algún error,
+    retorna 'Desconocido' como valor predeterminado.
+
+    Args:
+        funcion (callable): La función que se aplicará al elemento para extraer la información.
+        item (objeto): El elemento sobre el cual se aplicará la función.
+
+    Returns:
+        str: El resultado de aplicar la función al item, o 'Desconocido' si ocurre un error.
+    """
+
     try:
         return funcion(item)
     except:
@@ -206,6 +218,19 @@ def obter_info(funcion, item):
 
 
 def obtener_actividades(df):
+    """
+    Extrae información de actividades de una columna HTML de un DataFrame y la organiza en categorías,
+    subcategorías, nombres, precios, puntuaciones, número de reseñas y URLs detalladas.
+
+    Args:
+        df (pd.DataFrame): El DataFrame que contiene una columna de ciudades y otra con código HTML de la página
+                           donde se extrae la información de las actividades.
+
+    Returns:
+        pd.DataFrame: Un nuevo DataFrame que contiene las actividades extraídas, con las columnas:
+                      'ciudad', 'categoria', 'subcategoria', 'nombre', 'precio', 'puntuacion', 'n_reviews', 'url_detalles'.
+    """
+
     categorias = ['INPRESCINDIBLES', 'GASTRONOMIA', 'ARTE Y CULTURA', 'ATRACCIONES PRINCIPALES', 'OTRAS ATRACCIONES PRINCIPALES', 'VISITAS GUIADAS']
     resultado = {"ciudad": [], "categoria": [], "subcategoria": [], "nombre": [], "precio": [], "puntuacion": [], "n_reviews": [], "url_detalles": []}
 

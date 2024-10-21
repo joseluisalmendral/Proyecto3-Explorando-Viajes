@@ -11,16 +11,17 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def distance_conversion(x):
     """
-    Converts a distance string to kilometers.
+    Convierte una cadena de texto que representa una distancia en kilómetros.
 
-    The input string is expected to contain a numeric distance followed by a unit ('km' or 'm'). The function converts the string to a float value representing the distance in kilometers.
+    La cadena de entrada debe contener un valor numérico seguido de una unidad ('km' o 'm'). La función convierte la cadena en un valor flotante que representa la distancia en kilómetros.
 
-    Parameters:
-    - x (str): A string representing the distance (e.g., '2.5 km' or '500 m'), with commas optionally used as decimal separators.
+    Parámetros:
+    - x (str): Una cadena de texto que representa la distancia (por ejemplo, '2.5 km' o '500 m'), con comas opcionalmente usadas como separadores decimales.
 
-    Returns:
-    - (float or None): The distance in kilometers, or None if the unit is not recognized.
+    Retorna:
+    - (float o None): La distancia en kilómetros, o None si la unidad no es reconocida.
     """
+
     x = x.replace(',', '.')
     
     if x.split()[1] == 'km':
@@ -35,16 +36,17 @@ def distance_conversion(x):
 
 def clean_df(df):
     """
-    Cleans and formats specific columns in a DataFrame.
+    Limpia y formatea columnas específicas de un DataFrame.
 
-    This function processes the 'Distance to center', 'Score', 'Price (€)', and 'Location score' columns by applying necessary conversions and formatting, such as extracting numeric values, handling units, and converting strings to floats.
+    Esta función procesa las columnas 'Distance to center', 'Score', 'Price (€)', y 'Location score', aplicando las conversiones y formatos necesarios, tales como la extracción de valores numéricos, el manejo de unidades y la conversión de cadenas a valores flotantes.
 
-    Parameters:
-    - df (pandas.DataFrame): The input DataFrame containing the columns to be cleaned.
+    Parámetros:
+    - df (pandas.DataFrame): El DataFrame de entrada que contiene las columnas a limpiar.
 
-    Returns:
-    - (pandas.DataFrame): The cleaned DataFrame with formatted columns.
+    Retorna:
+    - (pandas.DataFrame): El DataFrame limpio con las columnas formateadas.
     """
+
     # Formatting 'Distance to center'
     df['Distance to center'] = df['Distance to center'].str.extract(r'(\d+\,?\d*\s\w{1,2})')
     df['Distance to center'] = df['Distance to center'].apply(distance_conversion)
@@ -61,15 +63,15 @@ def clean_df(df):
 
 def soup_to_df(soup):
     """
-    Extracts property data from a BeautifulSoup object and returns it as a cleaned DataFrame.
+    Extrae datos de propiedades de un objeto BeautifulSoup y los devuelve como un DataFrame limpio.
 
-    The function scrapes property details such as name, address, distance to the center, score, location score, price, and link from HTML elements identified by specific data-test IDs. The extracted data is then cleaned using the `clean_df` function.
+    La función obtiene detalles de propiedades como nombre, dirección, distancia al centro, puntuación, puntuación de la ubicación, precio y enlace desde elementos HTML identificados por IDs de datos específicos. Los datos extraídos luego se limpian usando la función `clean_df`.
 
-    Parameters:
-    - soup (BeautifulSoup): A BeautifulSoup object containing the HTML of the property listings.
+    Parámetros:
+    - soup (BeautifulSoup): Un objeto BeautifulSoup que contiene el HTML de los listados de propiedades.
 
-    Returns:
-    - (pandas.DataFrame): A cleaned DataFrame with the extracted property data.
+    Retorna:
+    - (pandas.DataFrame): Un DataFrame limpio con los datos de las propiedades extraídas.
     """
 
     # Get every item from the soup
@@ -107,18 +109,19 @@ def soup_to_df(soup):
 
 def scrap_url(dest_id, checkin, checkout):
     """
-    Opens a URL in a browser to scrape property data from Booking.com, scrolls to load more results, and returns the page source as a BeautifulSoup object.
+    Abre una URL en un navegador para hacer scraping de datos de propiedades en Booking.com, realiza desplazamiento para cargar más resultados y devuelve el código fuente de la página como un objeto BeautifulSoup.
 
-    The function navigates to a specific search result page for a city on the Booking.com website based on the provided destination ID, check-in, and check-out dates. It continuously scrolls to load more results, clicks the "load more results" button, and finally returns the page's HTML content.
+    La función navega a una página de resultados de búsqueda específica en Booking.com para una ciudad, según el ID de destino y las fechas de check-in y check-out proporcionadas. Desplaza continuamente la página para cargar más resultados, hace clic en el botón de "cargar más resultados" y finalmente retorna el contenido HTML de la página.
 
-    Parameters:
-    - dest_id (str): The destination ID used to search for the city.
-    - checkin (str): The check-in date in 'YYYY-MM-DD' format.
-    - checkout (str): The check-out date in 'YYYY-MM-DD' format.
+    Parámetros:
+    - dest_id (str): El ID de destino usado para buscar la ciudad.
+    - checkin (str): La fecha de check-in en formato 'YYYY-MM-DD'.
+    - checkout (str): La fecha de check-out en formato 'YYYY-MM-DD'.
 
-    Returns:
-    - (BeautifulSoup): A BeautifulSoup object containing the HTML of the search results page.
+    Retorna:
+    - (BeautifulSoup): Un objeto BeautifulSoup que contiene el HTML de la página de resultados de búsqueda.
     """
+    
     # Open a window
     driver = webdriver.Chrome()
     driver.implicitly_wait(5)
